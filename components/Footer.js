@@ -13,8 +13,8 @@ export default function Footer() {
                     <div className="space-x-4 flex flex-row items-center">
                         <a
                             href={userData.socialLinks.instagram}
-                            target='_blank'
-                            rel='noreferrer'
+                            target="_blank"
+                            rel="noreferrer"
                             className="text-base font-normal text-gray-600 dark:text-gray-300"
                         >
                             <svg
@@ -30,15 +30,15 @@ export default function Footer() {
                         </a>
                         <a
                             href={userData.socialLinks.github}
-                            target='_blank'
-                            rel='noreferrer'
+                            target="_blank"
+                            rel="noreferrer"
                             className="text-base font-normal text-gray-600 dark:text-gray-300"
                         >
                             <svg
                                 fill="currentColor"
                                 xmlns="http://www.w3.org/2000/svg"
                                 viewBox="0 0 16 16"
-                                className="bi bi-github h-5 w-5"
+                                className="bi bi-github h-6 w-6"
                                 width="16"
                                 height="16"
                             >
@@ -47,8 +47,8 @@ export default function Footer() {
                         </a>
                         <a
                             href={userData.socialLinks.linkedin}
-                            target='_blank'
-                            rel='noreferrer'
+                            target="_blank"
+                            rel="noreferrer"
                             className="text-base font-normal text-gray-600 dark:text-gray-300"
                         >
                             <svg
