@@ -4,7 +4,7 @@ import { RainbowHighlight } from "./RainbowHighlight";
 import userData from "../constants/userData";
 
 export default function Hero() {
-  const colors = ["#F59E0B", "#84CC16", "#10B981", "#3B82F6"];
+  const colors = ["#84CC16", "#F59E0B", "#10B981", "#F63B82"];
   return (
     <div className="flex flex-row justify-center items-start overflow-hidden">
       {/* Text container */}
@@ -23,12 +23,12 @@ export default function Hero() {
           </RainbowHighlight>
           <RainbowHighlight color={colors[2]}>
             <h1 className="text-3xl md:text-5xl font-bold text-gray-700 dark:text-gray-200 my-2">
-              {`I work on full-stack web development`}
+              {`I build scalable and accessible apps`}
             </h1>
           </RainbowHighlight>
           <RainbowHighlight color={colors[3]}>
             <h1 className="text-3xl md:text-5xl font-bold text-gray-700 dark:text-gray-200 my-2">
-              {`from design to deployment.`}
+              {`from front to back.`}
             </h1>
           </RainbowHighlight>
         </RoughNotationGroup>
