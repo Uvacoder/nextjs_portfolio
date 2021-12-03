@@ -2,8 +2,8 @@ const userData = {
   githubUsername: "daxwann",
   name: "Dax Wann",
   designation: "Full-Stack Software Engineer",
-  avatarUrl: "/avatar.png",
-  email: "daxwann at gmail dot com",
+  avatarUrl: "/dax_portrait.jpg",
+  email: "daxwann@gmail.com",
   address: "San Jose, California",
   projects: [
     {
